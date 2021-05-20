@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Card, CardColumns, Col, Container, Row } from 'react-bootstrap';
 import API from '../utils/API.js'
 
+// Note: This page is functional, but not yet complete. Basically this is how I left my work the moment this assignment was due. Overall for this project I have demonstrated: using React, API, and I have the beginnings of a nice database interaction. With more time, I would have prioritized the following tasks: finishing the database work (ensuring books are getting saved without errors and deleted also without errors). Next I would get the saved page to render with all the functionality. Then to finish up I would tidy up the whole application so that it looks nice. For my own satisfaction, I would like to refactor so that I use functional instead of class components so that I could practice with hooks. I would also like to split the rendered pieces into smaller components.
 class Search extends Component {
     state = {
         search: "",
