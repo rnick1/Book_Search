@@ -1,6 +1,6 @@
 # Google Book Search
 
-![screenshot](client\src\book-search.png)
+![screenshot](client/src/book-search.png)
 
 #### by: rnick1
 
